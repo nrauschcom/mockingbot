@@ -1,0 +1,32 @@
+{
+  "name": "mockingbot",
+  "version": "1.0.0",
+  "description": "Provides @m0ckingbot to Telegram",
+  "main": "bot.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrauschcom/mockingbot.git"
+  },
+  "keywords": [
+    "telegram",
+    "inline",
+    "bot",
+    "mocking",
+    "fun"
+  ],
+  "author": "Nico Rausch <rausch.nico@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrauschcom/mockingbot/issues"
+  },
+  "homepage": "https://github.com/nrauschcom/mockingbot#readme",
+  "dependencies": {
+    "telegraf": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.3"
+  }
+}
