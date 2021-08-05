@@ -1,7 +1,7 @@
 import {Telegraf} from "telegraf";
 import * as crypto from 'crypto';
 
-const bot = new Telegraf('1923930394:AAHikPkG_08r3rcQv4kpk2IxoXJTpolo3v8');
+const bot = new Telegraf(process.env.token ?? '1923930394:AAHikPkG_08r3rcQv4kpk2IxoXJTpolo3v8');
 
 function mockText(input: string): string {
     return [...input].map((char, idx) => char[idx % 2 == 0 ? 'toUpperCase' : 'toLowerCase']()).join('');
